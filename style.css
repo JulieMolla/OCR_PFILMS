@@ -19,8 +19,13 @@ video {
     opacity: 1;
     margin-top: -100px;
     margin-bottom: -100px;
-
+    position: fixed;
+    z-index: -1;
   }
+
+.banniere {
+    height: 100vh;
+}
 
 .banniere, .about {
     position: relative;
@@ -28,7 +33,7 @@ video {
 }
 
 .banniere__overlay {
-    background: url(images/savethedate.svg) center center no-repeat;
+    background: url(images/titrehome.svg) center center no-repeat;
     position: absolute;
     top: -10px;
     bottom: 0;
@@ -53,18 +58,6 @@ video {
     color: white;
 }
 
-.banniere__info h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-}
-
-.about img {
-    object-fit: cover;
-    width: 100vw;
-    height: 700px;
-    opacity: 1;
-  }
-
 .about__overlay {
     background: url(images/about.svg) center center no-repeat;
     position: absolute;
@@ -72,6 +65,7 @@ video {
     bottom: 0;
     left: 0;
     right:0;
+    
 }
 
 .about__info {
@@ -82,7 +76,7 @@ video {
     color: black;
     padding-left: 100px;
     padding-right: 100px;
-    font-family:'Abel', sans-serif;
+    font-family:'Playfair Display', sans-serif;
     font-size: 26px;   
 }
 
@@ -104,12 +98,21 @@ video {
     color:white;
 }
 
+/* .films__overlay {
+    background: url(images/programme.svg) center center no-repeat;
+    position: absolute;
+    top: -70%;
+    bottom: 0;
+    left: 0;
+    right:0;
+} */
+
 .grid__films {
     background-color: #333;
 }
 
 .grid__films h2, .actualites h2 {
-    font-family: "Silom", sans-serif;
+    font-family: "Elephant", sans-serif;
     font-size: 90px;
     text-transform: uppercase;
     padding: 60px;
@@ -184,6 +187,10 @@ video {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 22px;
+}
+
+.actualites__card {
+    margin: 0;
 }
 
 
