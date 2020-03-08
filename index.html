@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Intégration du favicon -->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+    <!-- Intégration de bootstrap - CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Intégration de bootstrap - JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Intégration de font awesome -->
+    <script src="https://kit.fontawesome.com/942352743e.js" crossorigin="anonymous"></script>
+
+
+    <!-- Intégration des polices -->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Raleway&display=swap" rel="stylesheet">
+
+
+    <!-- Intégration de la feuille CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Intégration du JS -->
+    <script src="script.js"></script>
+
+
+
+
+    <title>Les Films de Plein Air</title>
+
+</head>
+
+<body>
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between">
+
+
+            <div class="navbar__menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Films
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Films</a>
+                                <a class="dropdown-item" href="#">Programmation</a>
+                                <div class="dropdown-item"></div>
+                                <a class="dropdown-item" href="#">Réservation</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Actualités</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navbar__network">
+
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1 text-white">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-instagram mx-1 text-white">
+                            <i class="fab fa-instagram"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1 text-white">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <article>
+            <section class="banniere">
+                <div class="banniere__video">
+                    <video src="images/reflection.mp4" autoplay muted loop>
+                        Votre navigateur ne prend pas en charge cette vidéo</video>
+                </div>
+
+                <div class="banniere__overlay">
+                    <!-- Affiche l'image svg qui permet d'afficher le texte: "Save the date !" -->
+                </div>
+
+                <div class="banniere__info">
+                    <h2>Du 5 au 8 août 2020 - Parc Monceau, Paris</h2>
+                </div>
+
+            </section>
+        </article>
+
+        <article>
+            <section class="about">
+                <div class="about__bg">
+                    <img src="images/bicycle-crankset-1020136.jpg"
+                        alt="disque de vélo représentant une pellicule de film" />
+                </div>
+
+                <div class="about__overlay">
+                    <!-- Affiche l'image svg qui permet d'afficher le texte: "A propos du festival" -->
+                </div>
+
+                <div class="row about__info">
+                    <div class="col-sm d-flex align-items-center">
+                        <div>
+
+                            <h2>L'association "Les Films de Plein Air" vous invite à
+                                son festival !</h2>
+
+                            <p>Au
+                                programme:
+                                4 soirs
+                                de
+                                projections des plus grands films d'auteurs! Et vous savez quoi? C'est
+                                <strong>GRATUIT</strong>
+                                ! Alors
+                                du 5 au 8
+                                août 2020, de 18h à minuit, rejoignez l'aventure et n'oubliez pas de réserver vos
+                                billets !
+                                A
+                                très
+                                bientôt au Parc Monceau!
+                            </p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-dark">Réserver</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm map-container d-flex align-items-center">
+                        <iframe src="https://maps.google.com/maps?q=Parc+Monceau&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="grid__films">
+                <h2 class="text-center text-white">Au programme</h2>
+
+                <div class="row films__main">
+                    <div class="col-6 play">
+                        <!-- Tombeau des Lucioles -->
+                        <img src="images/tombeaudeslucioles.jpeg" alt="affiche du film Le Tombeau des Lucioles" />
+                        <div class="play__title d-flex justify-content-center align-items-center">
+                            <h4>Le tombeau des lucioles</h4>
+                        </div>
+                        <div class="play__overlay d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                                data-src="https://www.youtube.com/embed/ELGUE86HPSc" data-target="#myModal">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-6 play">
+                        <!-- Merveilleuse histoire du temps -->
+                        <img src="images/merveilleusehistoiredutemps.jpg"
+                            alt="affiche du film Une Merveilleuse histoire du temps" />
+                        <div class="play__title d-flex justify-content-center align-items-center">
+                            <h4>Une merveilleuse histoire du temps</h4>
+                        </div>
+                        <div class="play__overlay d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                                data-src="https://www.youtube.com/embed/Rc20OXhGnfU" data-target="#myModal">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-6 play">
+                        <!-- Departures -->
+                        <img src="images/departures.jpeg" alt="affiche du film Departures" />
+                        <div class="play__title d-flex justify-content-center align-items-center">
+                            <h4>Departures</h4>
+                        </div>
+                        <div class="play__overlay d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                                data-src="https://www.youtube.com/embed/xCCFiOraQLw" data-target="#myModal">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 play">
+                        <!-- Will Hunting -->
+                        <img src="images/willhunting.jpg" alt="affiche du film Will Hunting" />
+                        <div class="play__title d-flex justify-content-center align-items-center">
+                            <h4>Will Hunting</h4>
+                        </div>
+                        <div class="play__overlay d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                                data-src="https://www.youtube.com/embed/f3v9pRa5dR8" data-target="#myModal">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center">
+                    <button type="button" class="btn btn-light">Tous les films</button>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section class="actualites">
+                <h2 class="text-center">Actualités</h2>
+                <div class="row actualites__card">
+                    <div class="col-4">
+                        <div class="card bg-dark">
+                            <img src="images/redcarpet.jpg" class="card-img-top"
+                                alt="deux femmes sur un tapis rouge dans un parc">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-white">Pas de festival sans tapis rouge</h5>
+                                <p class="card-text text-justify text-white">Car vous serez nos invités de marque et
+                                    afin de vous immerger au
+                                    mieux
+                                    dans notre
+                                    patrimoine cinématographique , nous déroulerons pour vous le tapis rouge ! Mais au
+                                    fait,
+                                    savez-vous pourquoi le tapis rouge est...rouge ?</p>
+                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card bg-dark">
+                            <img src="images/vip.jpg" class="card-img-top"
+                                alt="femme déguisée en Marylin Monroe sur un tapis rouge">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-white">Pas de festival sans V.I.P</h5>
+                                <p class="card-text text-justify text-white"> Le monde du Cinéma en plein air ? Nous
+                                    avons l'honneur de vous
+                                    annoncer que vous pourrez rencontrer de nombreuses
+                                    célébrités lors du festival ! Et qui sait...l'une d'elles sera peut-petre assise à
+                                    côté
+                                    de vous ! Alors..."Action et Réservez" !
+                                </p>
+                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card bg-dark">
+                            <img src="images/oscar.jpg" class="card-img-top"
+                                alt="représentation graphique d'un oscar du cinéma">
+                            <div class="card-body">
+                                <h5 class="card-title text-white text-center">Pas de festival sans récompense</h5>
+                                <p class="card-text text-white text-justify">Tout au long du festival, nous passerons
+                                    une série de
+                                    court-métrages. Afin de récompenser
+                                    ces jeunes talents, nous vous inviterons à voter pour le court-métrage que vous
+                                    aurez
+                                    préféré dans votre soirée. Tel un Oscar, une récompense sera offerte au
+                                    vainqueur !</p>
+                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </article>
+
+    </main>
+
+
+    <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Les Films de Plein Air</h5>
+                    <p class="text-justify text-white">Association "loi 1901", les Films de Plein Air a pour objet de
+                        projeter gratuitement des
+                        films d'auteur dans des lieux publics. Le premier festival aura lieu du 5 au 8 août 2020
+                        dans le Parc Monceau, à Paris.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">A propos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">L'association</a>
+                        </li>
+                        <li>
+                            <a href="#!">Le Festival</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Films</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Liste des films</a>
+                        </li>
+                        <li>
+                            <a href="#!">Programmation</a>
+                        </li>
+                        <li>
+                            <a href="#!">Réserver sa place</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Actualités</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Les dernières actualités</a>
+                        </li>
+                        <li>
+                            <a href="#!">Archives</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Rejoignez-nous</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Devenir bénévole</a>
+                        </li>
+                        <li>
+                            <a href="#!">Devenir adhérent</a>
+                        </li>
+                        <li>
+                            <a href="#!">Devenir partenaire</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1 text-white">Suivez-nous</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="#!" class="btn btn-dark btn-rounded">S'inscrire à notre Newsletter</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="list-unstyled list-inline text-center text-white">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-instagram mx-1">
+                    <i class="fab fa-instagram"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                    <i class="fab fa-twitter"> </i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+            <a href="http://cv.juliemolla.fr/"> Julie Molla</a> | Droits d'auteurs | Mentions légales |
+            Charte de protection des données et politique de gestion des cookies | Sitemap
+        </div>
+    </footer>
+
+
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+
+</body>
+
+</html>
