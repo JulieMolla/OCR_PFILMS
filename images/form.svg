@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="124px" viewBox="0 0 680 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-10.000000, -18.000000)">
+            <g id="Group">
+                <text id="RÉSERVER-SA-PLACE" font-family="SuperstarM54, Superstar M54" font-size="50" font-weight="700" fill="#D8D8D8">
+                    <tspan x="230.572754" y="70">R</tspan>
+                    <tspan x="258.844238" y="70" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">ÉSERVER </tspan>
+                    <tspan x="233.966309" y="130" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">SA PLACE</tspan>
+                </text>
+                <polygon id="Path" stroke="#D8D8D8" stroke-width="4" points="170 20 170 140 530 140 530 20"></polygon>
+                <rect id="Rectangle" x="0" y="0" width="700" height="160"></rect>
+            </g>
+            <g id="Group-2" transform="translate(10.000000, 26.000000)">
+                <line x1="0.5" y1="54.5" x2="140.5" y2="54.5" id="Path-2" stroke="#979797" stroke-width="4"></line>
+                <text id="5-AU-8" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
+                    <tspan x="30.3959961" y="29">5 AU 8</tspan>
+                </text>
+                <text id="18H" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
+                    <tspan x="598.265137" y="29">18H</tspan>
+                </text>
+                <text id="00H" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
+                    <tspan x="595.005859" y="103">00H</tspan>
+                </text>
+                <text id="AOÛT" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
+                    <tspan x="32.4946289" y="103">AO</tspan>
+                    <tspan x="65.7172852" y="103" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">ÛT</tspan>
+                </text>
+                <line x1="540" y1="54" x2="680" y2="54" id="Path-2" stroke="#979797" stroke-width="4"></line>
+            </g>
+        </g>
+    </g>
+</svg>

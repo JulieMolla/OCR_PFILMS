@@ -126,14 +126,8 @@
 
         <article>
             <section class="about">
-                <div class="about__bg">
-                    <!-- <img src="images/bicycle-crankset-1020136.jpg"
-                        alt="disque de vélo représentant une pellicule de film" /> -->
-                    <div style="height: 700px;"></div>
-                </div>
-
-                <div class="about__overlay">
-                    <!-- Affiche l'image svg qui permet d'afficher le texte: "A propos du festival" -->
+                <div class="about__heading">
+                    <h2 class="neon" data-text="[À propos]">[À propos]</h2>
                 </div>
 
                 <div class="row about__info">
@@ -158,7 +152,7 @@
                                 bientôt au Parc Monceau!
                             </p>
                             <div class="text-center">
-                                <button type="button" class="btn btn-dark">Réserver</button>
+                                <button type="button" class="about__btn btn btn-dark">Réserver</button>
                             </div>
                         </div>
                     </div>
@@ -174,9 +168,8 @@
 
         <article>
             <section class="grid__films">
-                <!-- <h2 class="text-center text-white">Au programme</h2> -->
-                <div class="films__overlay">
-                    <!-- Affiche l'image svg qui permet d'afficher le texte: "Au programme"" -->
+                <div class="films__heading">
+                    <h2 class="neon" data-text="[Programme]">[Programme]</h2>
                 </div>
                 <div class="row films__main">
                     <div class="col-6 play">
@@ -186,7 +179,7 @@
                             <h4>Le tombeau des lucioles</h4>
                         </div>
                         <div class="play__overlay d-flex justify-content-center align-items-center">
-                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                            <button type="button" class="films__btn btn video-btn" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/ELGUE86HPSc" data-target="#myModal">
                                 <i class="fab fa-youtube"></i>
                             </button>
@@ -201,7 +194,7 @@
                             <h4>Une merveilleuse histoire du temps</h4>
                         </div>
                         <div class="play__overlay d-flex justify-content-center align-items-center">
-                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                            <button type="button" class=" films__btn btn btn video-btn" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/Rc20OXhGnfU" data-target="#myModal">
                                 <i class="fab fa-youtube"></i>
                             </button>
@@ -215,7 +208,7 @@
                             <h4>Departures</h4>
                         </div>
                         <div class="play__overlay d-flex justify-content-center align-items-center">
-                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                            <button type="button" class="films__btn btn btn video-btn" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/xCCFiOraQLw" data-target="#myModal">
                                 <i class="fab fa-youtube"></i>
                             </button>
@@ -230,7 +223,7 @@
                             <h4>Will Hunting</h4>
                         </div>
                         <div class="play__overlay d-flex justify-content-center align-items-center">
-                            <button type="button" class="btn btn-dark video-btn" data-toggle="modal"
+                            <button type="button" class="films__btn btn btn video-btn" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/f3v9pRa5dR8" data-target="#myModal">
                                 <i class="fab fa-youtube"></i>
                             </button>
@@ -240,14 +233,17 @@
                 </div>
 
                 <div class="text-center">
-                    <button type="button" class="btn btn-light">Tous les films</button>
+                    <button type="button" class="films__btn btn">Tous les films</button>
                 </div>
             </section>
         </article>
 
         <article>
             <section class="actualites">
-                <h2 class="text-center">Actualités</h2>
+                <div class="actualites__heading">
+                    <h2 class="neon" data-text="[Actualités]">[Actualités]</h2>
+                </div>
+
                 <div class="row actualites__card">
                     <div class="col-4">
                         <div class="card bg-dark">
@@ -262,7 +258,7 @@
                                     patrimoine cinématographique , nous déroulerons pour vous le tapis rouge ! Mais au
                                     fait,
                                     savez-vous pourquoi le tapis rouge est...rouge ?</p>
-                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                                <a href="#" class="actualites__btn btn btn-dark">En savoir plus</a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +276,7 @@
                                     côté
                                     de vous ! Alors..."Action et Réservez" !
                                 </p>
-                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                                <a href="#" class="actualites__btn btn btn-dark">En savoir plus</a>
                             </div>
                         </div>
                     </div>
@@ -298,7 +294,7 @@
                                     aurez
                                     préféré dans votre soirée. Tel un Oscar, une récompense sera offerte au
                                     vainqueur !</p>
-                                <a href="#" class="btn btn-dark">En savoir plus</a>
+                                <a href="#" class="actualites__btn btn btn-dark">En savoir plus</a>
                             </div>
                         </div>
                     </div>

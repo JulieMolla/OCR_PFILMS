@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
 
 .navbar {
     background-color: transparent;
@@ -10,6 +10,12 @@
 .navbar.solid {
     background-color: #333;
     transition: background-color 1s ease 0s;
+}
+
+.btn {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color:white;
 }
 
 video {
@@ -58,26 +64,69 @@ video {
     color: white;
 }
 
-.about__overlay {
-    background: url(images/about.svg) center center no-repeat;
-    position: absolute;
-    top: -70%;
-    bottom: 0;
+.neon {
+    position: relative;
+    display: inline-block; 
+    transform: translate (-50%, -50%);
+    margin:0;
+    padding: 0 20px;
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 0 0 20px #00e2ff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.neon:after {
+    content: attr(data-text);
+    position: absolute; 
+    top: 0;
     left: 0;
-    right:0;
-    
+    padding: 0 20px; 
+    z-index: -1;
+    color: #00e2ff;
+    filter: blur(15px);
+}
+
+.neon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background: #00e2ff;
+    opacity: 0.5;
+    filter: blur(40px);
+}
+
+.about {
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(0, 0, 0, 0.865);
+    background-size: cover;
+    font-family: 'Quicksand' , sans-serif;
+}
+
+.about__heading, .films__heading, .actualites__heading {
+    padding: 40px;
+    text-align: center;
 }
 
 .about__info {
-    position: absolute;
+    position: relative;
     top: 30%;
     text-align: justify;
     width: 100%;
-    color: black;
+    color: rgba(255, 255, 255, 0.598);
     padding-left: 100px;
     padding-right: 100px;
-    font-family:'Playfair Display', sans-serif;
+    padding-bottom: 40px;
+    font-family:'Quicksand', sans-serif;
     font-size: 26px;   
+}
+
+.about__btn, .films__btn, .actualites__btn{
+    background-color: #248ab1;
 }
 
 .map-container {
@@ -90,32 +139,8 @@ video {
     margin-left:40px;
 }
 
-.btn {
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
-    background-color: #b01a1c;
-    border-color: #b01a1c;
-    color:white;
-}
-
-/* .films__overlay {
-    background: url(images/programme.svg) center center no-repeat;
-    position: absolute;
-    top: -70%;
-    bottom: 0;
-    left: 0;
-    right:0;
-} */
-
 .grid__films {
-    background-color: #333;
-}
-
-.grid__films h2, .actualites h2 {
-    font-family: "Elephant", sans-serif;
-    font-size: 90px;
-    text-transform: uppercase;
-    padding: 60px;
+    background-color: #1a1d21;
 }
 
 .grid__films img {
@@ -183,10 +208,14 @@ video {
     opacity:1;
 }
 
-.grid__films .btn {
+.films__btn {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 22px;
+}
+
+.actualites {
+    background-color: #4c4c4c;
 }
 
 .actualites__card {
