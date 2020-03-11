@@ -224,7 +224,19 @@ video {
     margin: 0;
 }
 
+.pagination {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.pagination, a {
+    color:#34b2e2;
+}
+
+.pagination, a:hover {
+    color: #a5d0ff;
+}
 
 footer {
 
