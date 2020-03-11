@@ -73,7 +73,9 @@ video {
     font-size: 6em;
     color: #fff;
     text-shadow: 0 0 20px #00e2ff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Neon Absolute Sans 1', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
 }
 
 .neon:after {
@@ -140,7 +142,7 @@ video {
 }
 
 .grid__films {
-    background-color: #1a1d21;
+    background-color: #272a2df5;
 }
 
 .grid__films img {
@@ -215,7 +217,7 @@ video {
 }
 
 .actualites {
-    background-color: #4c4c4c;
+    background-color: rgba(0, 0, 0, 0.931);
 }
 
 .actualites__card {
