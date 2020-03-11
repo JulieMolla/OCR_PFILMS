@@ -6,13 +6,12 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-3" transform="translate(-10.000000, -18.000000)">
             <g id="Group">
-                <text id="RÉSERVER-SA-PLACE" font-family="SuperstarM54, Superstar M54" font-size="50" font-weight="700" fill="#D8D8D8">
-                    <tspan x="230.572754" y="70">R</tspan>
-                    <tspan x="258.844238" y="70" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">ÉSERVER </tspan>
-                    <tspan x="233.966309" y="130" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">SA PLACE</tspan>
-                </text>
                 <polygon id="Path" stroke="#D8D8D8" stroke-width="4" points="170 20 170 140 530 140 530 20"></polygon>
                 <rect id="Rectangle" x="0" y="0" width="700" height="160"></rect>
+                <text id="RÉSERVER-SA-PLACE" font-family="LucidaGrande, Lucida Grande" font-size="50" font-weight="normal" fill="#D8D8D8">
+                    <tspan x="238.116699" y="70">RÉSERVER </tspan>
+                    <tspan x="242.132812" y="129">SA PLACE</tspan>
+                </text>
             </g>
             <g id="Group-2" transform="translate(10.000000, 26.000000)">
                 <line x1="0.5" y1="54.5" x2="140.5" y2="54.5" id="Path-2" stroke="#979797" stroke-width="4"></line>
@@ -26,8 +25,9 @@
                     <tspan x="595.005859" y="103">00H</tspan>
                 </text>
                 <text id="AOÛT" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
-                    <tspan x="32.4946289" y="103">AO</tspan>
-                    <tspan x="65.7172852" y="103" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">ÛT</tspan>
+                    <tspan x="34.2524414" y="103">AO</tspan>
+                    <tspan x="67.4750977" y="103" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">Û</tspan>
+                    <tspan x="89.5649414" y="103">T</tspan>
                 </text>
                 <line x1="540" y1="54" x2="680" y2="54" id="Path-2" stroke="#979797" stroke-width="4"></line>
             </g>

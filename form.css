@@ -1,0 +1,31 @@
+.navbar {
+    background-color: transparent;
+    color: #FFF2FF;
+    transition: background-color 1s ease 0s;
+
+}
+
+.navbar.solid {
+    background-color: #333;
+    transition: background-color 1s ease 0s;
+}
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.865);
+    position:relative;
+    height: 400px;
+}
+
+.heading__banniere {
+    background: url(images/form.svg) no-repeat top;
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.7;
+}

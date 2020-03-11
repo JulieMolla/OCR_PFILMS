@@ -12,12 +12,6 @@
     transition: background-color 1s ease 0s;
 }
 
-.btn {
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
-    color:white;
-}
-
 video {
     object-fit: cover;
     width: 100vw;
