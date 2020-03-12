@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="form.css">
 
     <!-- Intégration du JS -->
-    <script src="script.js"></script>
+    <script src="form.js"></script>
 
     <title>Les Films de Plein Air</title>
 
@@ -111,7 +111,8 @@
         </article>
 
         <article class="form">
-            <h2 class="text-center">Rejoignez l'aventure en réservant votre place dès maintenant !
+            <h2 class="text-center">Rejoignez l'aventure dès maintenant en réservant <strong>gratuitement</strong> votre
+                place !
             </h2>
             <form>
                 <div class="form-group">
@@ -120,7 +121,7 @@
                         placeholder="nom@example.com">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Vous souhaitez réserver combien de place ?</label>
+                    <label for="exampleFormControlSelect1">Combien de places souhaitez-vous réserver ?</label>
                     <select class="form-control" id="exampleFormControlSelect1">
                         <option>1</option>
                         <option>2</option>
@@ -130,90 +131,100 @@
                     </select>
                 </div>
 
-                <div class="form-check">
-                    <p>Quelle(s) séance(s) souhaitez-vous réserver ?</p>
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="tousLesFilms" value="option1"
-                        checked>
-                    <label class="form-check-label" for="tousLesFilms">
-                        Tous les films
-                    </label>
+                <p>À quelle(s) séance(s) souhaitez-vous assiter ?</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="form-check col">
+                            <input class="form-check-input" type="checkbox" value="" id="tousLesFilms">
+                            <label class="form-check-label" for="tousLesFilms">
+                                Tous les films
+                            </label>
+
+                            <div class="col">
+                                <p class="text-secondary">Mercredi 5 août</p>
+                                <input class="form-check-input" type="checkbox" value="" id="tombeauDesLucioles">
+                                <label class="form-check-label" for="tombeauDesLucioles">
+                                    18H - Le Tombeau des Lucioles
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="departures">
+                                <label class="form-check-label" for="departures">
+                                    20H - Departures
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="willHunting">
+                                <label class="form-check-label" for="willHunting">
+                                    22H - Will Hunting
+                                </label>
+                            </div>
+
+                            <div class="col">
+                                <p class="text-secondary">Jeudi 6 août</p>
+                                <input class="form-check-input" type="checkbox" value="" id="wallE">
+                                <label class="form-check-label" for="wallE">
+                                    18H - Wall-E
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value=""
+                                    id="merveilleuseHistoireDuTemps">
+                                <label class="form-check-label" for="merveilleuseHistoireDuTemps">
+                                    20H - Une merveilleuse histoire du temps
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="volAuDessus">
+                                <label class="form-check-label" for="volAuDessus">
+                                    22H - Vol au-dessus d'un nid de coucou
+                                </label>
+                            </div>
+
+                            <div class="col">
+                                <p class="text-secondary">Vendredi 7 août</p>
+                                <input class="form-check-input" type="checkbox" value="" id="edward">
+                                <label class="form-check-label" for="edward">
+                                    18H - Edward aux mains d'argent
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="intoTheWild">
+                                <label class="form-check-label" for="intoTheWild">
+                                    20H - Into the wild
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="fightClub">
+                                <label class="form-check-label" for="fightClub">
+                                    22H - Fight Club
+                                </label>
+                            </div>
+
+                            <div class="col">
+                                <p class="text-secondary">Samedi 8 août</p>
+                                <input class="form-check-input" type="checkbox" value="" id="charlie">
+                                <label class="form-check-label" for="charlie">
+                                    18H - Le monde de Charlie
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="grandBleu">
+                                <label class="form-check-label" for="grandBleu">
+                                    20H - Le Grand Bleu
+                                </label>
+                                <br>
+                                <input class="form-check-input" type="checkbox" value="" id="500jours">
+                                <label class="form-check-label" for="500jours">
+                                    22H - (500) jours ensemble
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="tombeauDesLucioles"
-                        value="option2">
-                    <label class="form-check-label" for="tombeauDesLucioles">
-                        Le Tombeau des Lucioles - Mercredi 5 août à 18h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="departures" value="option2">
-                    <label class="form-check-label" for="departures">
-                        Departures - Mercredi 5 août à 20h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="willHunting" value="option2">
-                    <label class="form-check-label" for="willHunting">
-                        Will Hunting - Mercredi 5 août à 22h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="wallE" value="option2">
-                    <label class="form-check-label" for="wallE">
-                        Wall-E - Jeudi 6 août à 18h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="merveilleuseHistoire"
-                        value="option2">
-                    <label class="form-check-label" for="merveilleuseHistoire">
-                        Une merveilleuse histoire du temps - Jeudi 6 août à 20h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="volAudessus" value="option2">
-                    <label class="form-check-label" for="volAudessus">
-                        Vol au-dessus d'un nid de coucou - Jeudi 6 août à 22h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="edward" value="option2">
-                    <label class="form-check-label" for="edward">
-                        Edward aux mains d'agrnet - Vendredi 7 août à 18h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="intoTheWild" value="option2">
-                    <label class="form-check-label" for="intoTheWild">
-                        Into The Wild - Vendreid 7 août à 20h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="fightClub" value="option2">
-                    <label class="form-check-label" for="fightClub">
-                        Fight Club - Vendredi 7 août à 22h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="mondeDeCharlie"
-                        value="option2">
-                    <label class="form-check-label" for="mondeDeCharlie">
-                        Le monde de Charlie - Samedi 8 août à 18h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="grandBleu" value="option2">
-                    <label class="form-check-label" for="grandBleu">
-                        Le Grand Bleu - Samedi 8 août à 20h
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="joursEnsemble"
-                        value="option2">
-                    <label class="form-check-label" for="joursEnsemble">
-                        (500) jours ensemble - Samedi 8 août à 22h
-                    </label>
-                </div>
+                </!DOCTYPE>
+
+
+
+
+
+
+
+
+
 
 
 
