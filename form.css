@@ -23,14 +23,40 @@
     bottom: 0;
     left: 0;
     right: 0;
-    color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Nunito', sans-serif;
-    opacity: 0.7;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.931);
+    color: #d8d8d8;
+}
+
+.slogan {
+    color: #34b2e2;
+}
+
+.day {
+    color: #34b2e2;
 }
 
 .seance {
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 0px;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+.reservez {
+    background-color: #34b2e2;
+    align-items: center;
+}
+
+a {
+    color:#34b2e2;
+}
+
+a:hover {
+    color: #a5d0ff;
+}
+
+.suivez__nous {
+    background-color: #34b2e2;
 }

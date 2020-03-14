@@ -56,7 +56,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">A propos</a>
@@ -70,7 +70,7 @@
                                 <a class="dropdown-item" href="#">Films</a>
                                 <a class="dropdown-item" href="#">Programmation</a>
                                 <div class="dropdown-item"></div>
-                                <a class="dropdown-item" href="#">Réservation</a>
+                                <a class="dropdown-item" href="form.html">Réservation</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -114,14 +114,15 @@
         </article>
 
         <article class="form">
-            <h2 class="text-center">Rejoignez l'aventure dès maintenant en réservant <strong>gratuitement</strong> votre
+            <h2 class="slogan text-center">Rejoignez l'aventure dès maintenant en réservant
+                <strong>gratuitement</strong> votre
                 place !
             </h2>
             <form>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Adresse e-mail </label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="nom@example.com">
+                        placeholder="nom@exemple.com">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Combien de places souhaitez-vous réserver ?</label>
@@ -137,7 +138,7 @@
                 <p>À quelle(s) séance(s) souhaitez-vous assiter ?</p>
                 <div class="seance row">
                     <div class="col">
-                        <p class="text-secondary">Mercredi 5 août</p>
+                        <p class="day">Mercredi 5 août</p>
                         <input class="form-check-input" type="checkbox" value="" id="tombeauDesLucioles">
                         <label class="form-check-label" for="tombeauDesLucioles">
                             18H - Le Tombeau des Lucioles
@@ -155,7 +156,7 @@
                     </div>
 
                     <div class="col">
-                        <p class="text-secondary">Jeudi 6 août</p>
+                        <p class="day">Jeudi 6 août</p>
                         <input class="form-check-input" type="checkbox" value="" id="wallE">
                         <label class="form-check-label" for="wallE">
                             18H - Wall-E
@@ -173,7 +174,7 @@
                     </div>
 
                     <div class="col">
-                        <p class="text-secondary">Vendredi 7 août</p>
+                        <p class="day">Vendredi 7 août</p>
                         <input class="form-check-input" type="checkbox" value="" id="edward">
                         <label class="form-check-label" for="edward">
                             18H - Edward aux mains d'argent
@@ -191,7 +192,7 @@
                     </div>
 
                     <div class="col">
-                        <p class="text-secondary">Samedi 8 août</p>
+                        <p class="day">Samedi 8 août</p>
                         <input class="form-check-input" type="checkbox" value="" id="charlie">
                         <label class="form-check-label" for="charlie">
                             18H - Le monde de Charlie
@@ -215,21 +216,30 @@
                     <label for="exampleFormControlTextarea1">Avez-vous des questions sur le Festival ?</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-dark mb-2 ">Moteur...Action...Réservez !</button>
+                <div class="text-center"></div>
+                <button type="submit" class="reservez btn btn-dark mb-2 ">Moteur...Action...Réservez !</button>
+                </div>
 
-                <p class="text-justify text-secondary">Ces informations sont nécessaires au traitement de votre demande
+                <p class="text-justify text-secondary">Ces informations sont nécessaires au traitement de votre
+                    demande
                     et
                     à la gestion de nos relations
-                    commerciales. Par conséquent, les données à caractère personnel recueillies par LES FILMS DE PLEIN
+                    commerciales. Par conséquent, les données à caractère personnel recueillies par LES FILMS DE
+                    PLEIN
                     AIR font l’objet d’un traitement automatisé destiné, uniquement, à la gestion des places pour la
-                    projection des films lors du festival et à l'information de nos adhérents. De plus, la communication
-                    de vos coordonnées électroniques implique votre consentement à recevoir, par voie électronique, des
+                    projection des films lors du festival et à l'information de nos adhérents. De plus, la
+                    communication
+                    de vos coordonnées électroniques implique votre consentement à recevoir, par voie électronique,
+                    des
                     offres commerciales de la part de LES FILMS DE PLEIN AIR.
 
-                    Conformément à la loi n°78-17 du 6 janvier 1978 dans sa version en vigueur et au Règlement européen
-                    (UE) n°2016/679, vous disposez notamment d’un droit d’accès, de rectification, de portabilité, de
+                    Conformément à la loi n°78-17 du 6 janvier 1978 dans sa version en vigueur et au Règlement
+                    européen
+                    (UE) n°2016/679, vous disposez notamment d’un droit d’accès, de rectification, de portabilité,
+                    de
                     limitation et de suppression des informations vous concernant, à formuler auprès de LES FILMS DE
-                    PLEIN AIR en contactant directement le délégué à la protection des données (DPO) à l’adresse mail
+                    PLEIN AIR en contactant directement le délégué à la protection des données (DPO) à l’adresse
+                    mail
                     suivante: dpo@filmsdepleinair.com
 
                     Enfin, pour connaître notre politique des données et des cookies, nous vous invitons à prendre
@@ -239,23 +249,111 @@
                     portée par <a href="https://openclassrooms.com" target="_blank">OpenClassRooms</a>.
 
                 </p>
-
-
-
-
-
-
-
-
-
-
-
-
             </form>
         </article>
     </main>
 
-    <footer>
-
+    <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Les Films de Plein Air</h5>
+                    <p class="text-justify text-white">Association "loi 1901", les Films de Plein Air a pour objet
+                        de
+                        projeter gratuitement des
+                        films d'auteur dans des lieux publics. Le premier festival aura lieu du 5 au 8 août 2020
+                        dans le Parc Monceau, à Paris.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">A propos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">L'association</a>
+                        </li>
+                        <li>
+                            <a href="#!">Le Festival</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Films</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Liste des films</a>
+                        </li>
+                        <li>
+                            <a href="#!">Programmation</a>
+                        </li>
+                        <li>
+                            <a href="form.html" target="_blank">Réserver</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Actualités</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Les dernières actualités</a>
+                        </li>
+                        <li>
+                            <a href="#!">Archives</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Rejoignez-nous</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Devenir bénévole</a>
+                        </li>
+                        <li>
+                            <a href="#!">Devenir adhérent</a>
+                        </li>
+                        <li>
+                            <a href="#!">Devenir partenaire</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1 text-white">Suivez-nous !</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="#!" class="btn btn-dark btn-rounded suivez__nous">S'inscrire à notre Newsletter</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="list-unstyled list-inline text-center text-white">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-instagram mx-1">
+                    <i class="fab fa-instagram"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                    <i class="fab fa-twitter"> </i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+            <a href="http://cv.juliemolla.fr/"> Julie Molla</a> | Droits d'auteurs | Mentions légales |
+            Charte de protection des données et politique de gestion des cookies | Sitemap
+        </div>
     </footer>
+
 </body>
