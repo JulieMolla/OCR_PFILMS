@@ -1,34 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="680px" height="124px" viewBox="0 0 680 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>Group 3</title>
+    <title>form</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-3" transform="translate(-10.000000, -18.000000)">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="form" transform="translate(-10.000000, -18.000000)">
             <g id="Group">
                 <polygon id="Path" stroke="#D8D8D8" stroke-width="4" points="170 20 170 140 530 140 530 20"></polygon>
                 <rect id="Rectangle" x="0" y="0" width="700" height="160"></rect>
-                <text id="RÉSERVER-SA-PLACE" font-family="LucidaGrande, Lucida Grande" font-size="50" font-weight="normal" fill="#D8D8D8">
-                    <tspan x="238.116699" y="70">RÉSERVER </tspan>
+                <text id="RÉSERVER" fill="#D8D8D8" font-family="LucidaGrande, Lucida Grande" font-size="50" font-weight="normal">
+                    <tspan x="238.116699" y="70">RÉSERVER</tspan>
+                </text>
+                <text id="SA-PLACE" fill="#D8D8D8" font-family="LucidaGrande, Lucida Grande" font-size="50" font-weight="normal">
                     <tspan x="242.132812" y="129">SA PLACE</tspan>
                 </text>
             </g>
             <g id="Group-2" transform="translate(10.000000, 26.000000)">
                 <line x1="0.5" y1="54.5" x2="140.5" y2="54.5" id="Path-2" stroke="#979797" stroke-width="4"></line>
-                <text id="5-AU-8" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
-                    <tspan x="30.3959961" y="29">5 AU 8</tspan>
-                </text>
-                <text id="18H" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
-                    <tspan x="598.265137" y="29">18H</tspan>
-                </text>
-                <text id="00H" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
-                    <tspan x="595.005859" y="103">00H</tspan>
-                </text>
-                <text id="AOÛT" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700" fill="#D8D8D8">
-                    <tspan x="34.2524414" y="103">AO</tspan>
-                    <tspan x="67.4750977" y="103" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">Û</tspan>
-                    <tspan x="89.5649414" y="103">T</tspan>
-                </text>
+                <g id="5-AU-8" transform="translate(30.000000, 0.000000)" fill="#D8D8D8" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700">
+                    <text>
+                        <tspan x="0.3959961" y="29">5 AU 8</tspan>
+                    </text>
+                </g>
+                <g id="18H" transform="translate(598.000000, 0.000000)" fill="#D8D8D8" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700">
+                    <text>
+                        <tspan x="0.265137" y="29">18H</tspan>
+                    </text>
+                </g>
+                <g id="00H" transform="translate(595.000000, 74.000000)" fill="#D8D8D8" font-family="SuperstarM54, Superstar M54" font-size="30" font-weight="700">
+                    <text>
+                        <tspan x="0.005859" y="29">00H</tspan>
+                    </text>
+                </g>
+                <g id="AOÛT" transform="translate(34.000000, 74.000000)" fill="#D8D8D8" font-size="30">
+                    <text id="AO" font-family="SuperstarM54, Superstar M54" font-weight="700">
+                        <tspan x="0.2524414" y="29">AO</tspan>
+                    </text>
+                    <text id="Û" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">
+                        <tspan x="33.4750977" y="29">Û</tspan>
+                    </text>
+                    <text id="T" font-family="SuperstarM54, Superstar M54" font-weight="700">
+                        <tspan x="55.5649414" y="29">T</tspan>
+                    </text>
+                </g>
                 <line x1="540" y1="54" x2="680" y2="54" id="Path-2" stroke="#979797" stroke-width="4"></line>
             </g>
         </g>
