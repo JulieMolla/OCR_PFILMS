@@ -7,6 +7,10 @@
     font-family: 'Riverswell';
     src:url(fonts/Riverswell.otf) format(truetype)
 }
+@font-face {
+    font-family: 'Superstar M54';
+    src:url(fonts/Superstar\ M54.ttf) format(truetype)
+}
 
 
 .navbar {

@@ -11,11 +11,11 @@
                     <polygon id="Star" points="10 15 4.12214748 18.0901699 5.24471742 11.545085 0.489434837 6.90983006 7.06107374 5.95491503 10 0 12.9389263 5.95491503 19.5105652 6.90983006 14.7552826 11.545085 15.8778525 18.0901699"></polygon>
                     <polygon id="Star" points="270 15 264.122147 18.0901699 265.244717 11.545085 260.489435 6.90983006 267.061074 5.95491503 270 0 272.938926 5.95491503 279.510565 6.90983006 274.755283 11.545085 275.877853 18.0901699"></polygon>
                     <text id="1Ère-ed.---5-au-8-ao" font-family="SuperstarM54, Superstar M54" font-size="16" font-weight="700">
-                        <tspan x="47.5117188" y="20">1</tspan>
-                        <tspan x="52.1679688" y="20" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">È</tspan>
-                        <tspan x="61.7773438" y="20">re ed. - 5 au 8 ao</tspan>
-                        <tspan x="175.636719" y="20" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">Û</tspan>
-                        <tspan x="187.417969" y="20">t 2020</tspan>
+                        <tspan x="47.5117188" y="19">1</tspan>
+                        <tspan x="52.1679688" y="19" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">È</tspan>
+                        <tspan x="61.7773438" y="19">re ed. - 5 au 8 ao</tspan>
+                        <tspan x="175.636719" y="19" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="bold">Û</tspan>
+                        <tspan x="187.417969" y="19">t 2020</tspan>
                     </text>
                 </g>
                 <g id="Group-4" transform="translate(0.000000, 22.000000)" fill="#D8D8D8">
@@ -31,8 +31,8 @@
                 </g>
                 <g id="Group-2" transform="translate(19.000000, 0.000000)">
                     <path d="M0,60 C69.7001728,20 143.200173,0 220.5,0 C297.799827,0 377.63316,20 460,60" id="Path"></path>
-                    <text id="Films-de-Plein-Air" font-family="SuperstarM54, Superstar M54" font-size="21" font-weight="700" fill="#D8D8D8">
-                        <tspan x="147.133789" y="30">Films de Plein Air</tspan>
+                    <text id="Films-de-Plein-Air" fill="#D8D8D8" font-family="QuicksandLight-Regular, Quicksand" font-size="21" font-weight="300">
+                        <tspan x="144.2015" y="24">Films de Plein Air</tspan>
                     </text>
                 </g>
             </g>
