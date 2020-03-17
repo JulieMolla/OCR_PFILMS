@@ -28,10 +28,43 @@
     transition: background-color 1s ease 0s;
 }
 
+.heading {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 20px;
+    text-align: center;
+}
 
+.heading h1 {
+    font-family: 'Superstar M54', sans-serif;
+    font-size: 100px;
+}
 
+.heading h3 {
+    font-family: 'Quicksand', sans-serif ;
+    font-weight: 900;
+}
 
+.heading h4 {
+    font-family: 'Quicksand', sans-serif ;
+}
 
+.reserver {
+    margin-top: 40px;
+}
+
+.reserver__btn {
+    background-color: #34b2e2;
+    border: none;
+}
+
+.tableau {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 a {
