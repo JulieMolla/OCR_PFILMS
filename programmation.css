@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
+
+@font-face {
+    font-family: 'Neon Absolute Sans';
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Riverswell';
+    src:url(fonts/Riverswell.otf) format(truetype);
+}
+@font-face {
+    font-family: 'Superstar M54';
+    src:url(fonts/Superstar\ M54.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+.navbar {
+    background-color: black;
+    color: #FFF2FF;
+    transition: background-color 1s ease 0s;
+
+}
+
+.navbar.solid {
+    background-color: #333;
+    transition: background-color 1s ease 0s;
+}
+
+
+
+
+
+
+
+a {
+    color:#34b2e2;
+}
+
+a:hover {
+    color: #a5d0ff;
+}
+
+.suivez__nous {
+    background-color: #34b2e2;
+}
