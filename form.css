@@ -26,12 +26,15 @@
 }
 
 body {
-    /* background-color: rgba(0, 0, 0, 0.639); */
     color: black;
 }
 
 .slogan {
     color: #34b2e2;
+}
+
+.form {
+    margin: 60px;
 }
 
 .day {
@@ -46,7 +49,7 @@ body {
 
 .reservez {
     background-color: #34b2e2;
-    align-items: center;
+    text-align: center;
 }
 
 a {
@@ -60,3 +63,5 @@ a:hover {
 .suivez__nous {
     background-color: #34b2e2;
 }
+
+
