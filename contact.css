@@ -35,3 +35,17 @@
 .heading h4 {
     font-family: 'Quicksand', sans-serif ;
 }
+
+.adresses {
+    background-color: #333a401c;
+    height: 200px; 
+    padding: 50px;
+    justify-content: center;
+}
+
+.adresses h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+
