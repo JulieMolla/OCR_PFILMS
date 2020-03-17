@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
+
+@font-face {
+    font-family: 'Neon Absolute Sans';
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Riverswell';
+    src:url(fonts/Riverswell.otf) format(truetype);
+}
+@font-face {
+    font-family: 'Superstar M54';
+    src:url(fonts/Superstar\ M54.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
 .navbar {
     background-color: black;
     color: #FFF2FF;
@@ -22,7 +40,6 @@ body {
   min-width: 100%;
   min-height: calc(100vh - 55px);
   width: 100px;
-  /* height: auto; */
   z-index: -100;
   background-size: cover;
   transition: 1s opacity;
@@ -54,7 +71,7 @@ a:hover{
 }
 
 .carousel__synopsys { 
-    font-family: Agenda-Light, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
     background-color:#000 ;
     color: white;

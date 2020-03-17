@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
+
+@font-face {
+    font-family: 'Neon Absolute Sans';
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Riverswell';
+    src:url(fonts/Riverswell.otf) format(truetype);
+}
 @font-face {
     font-family: 'Superstar M54';
-    src:url(fonts/Superstar\ M54.ttf) format(truetype)
+    src:url(fonts/Superstar\ M54.ttf) format(truetype);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 
 .navbar {
     background-color: black;
@@ -41,6 +54,7 @@
     height: 200px; 
     padding: 50px;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .adresses h5 {
@@ -83,6 +97,7 @@
 
 .newsletter form {
     margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
 
 }
 

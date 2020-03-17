@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap');
+
+@font-face {
+    font-family: 'Neon Absolute Sans';
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Riverswell';
+    src:url(fonts/Riverswell.otf) format(truetype);
+}
+@font-face {
+    font-family: 'Superstar M54';
+    src:url(fonts/Superstar\ M54.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
 .navbar {
     background-color: transparent;
     color: #FFF2FF;
@@ -27,6 +45,7 @@
 
 body {
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 .slogan {
@@ -45,6 +64,11 @@ body {
     padding-right: 0px;
     padding-left: 40px;
     margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.seance p {
+    font-family: 'Poppins', sans-serif;
 }
 
 .reservez {
@@ -63,6 +87,12 @@ a:hover {
 
 .suivez__nous {
     background-color: #34b2e2;
+}
+
+.rgpd {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
