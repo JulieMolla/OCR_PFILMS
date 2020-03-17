@@ -89,6 +89,7 @@
 .newsletter__btn, .reserver__btn {
     background-color: #34b2e2;
     margin-top: 20px;
+    border: none;
 }
 
 .newsletter__social {

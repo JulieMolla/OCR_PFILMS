@@ -11,7 +11,7 @@
 }
 
 .heading {
-    background-color: rgba(0, 0, 0, 0.865);
+    background-color: #333a40;
     position:relative;
     height: 400px;
 }
@@ -50,6 +50,7 @@ body {
 .reservez {
     background-color: #34b2e2;
     text-align: center;
+    border: none;
 }
 
 a {
