@@ -16,8 +16,8 @@
 }
 
 .heading {
-    height: 500px;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     margin: 20px;
     text-align: center;
 }
@@ -69,5 +69,50 @@
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.newsletter {
+    height: 100%;
+    margin: 40px;
+}
+
+.newsletter h5 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.newsletter form {
+    margin-top: 40px;
+
+}
+
+.newsletter__btn, .reserver__btn {
+    background-color: #34b2e2;
+    margin-top: 20px;
+}
+
+.newsletter__social {
+    background-color: #333a401c;
+    height: 200px;
+    padding: 30px;
+    font-size: 200px;
+    color: #34b2e2;
+    ;
+}
+
+.reserver__btn {
+    margin-bottom: 40px;
+}
+
+a {
+    color:#34b2e2;
+}
+
+a:hover {
+    color: #a5d0ff;
+}
+
+.suivez__nous {
+    background-color: #34b2e2;
 }
 
