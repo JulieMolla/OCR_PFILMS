@@ -261,4 +261,14 @@ video {
     background-color: #34b2e2;
 }
 
+a {
+    display: inline-block;
+    position: center;
+    color:#248ab1;    
+}
+
+a:hover{
+  color:#a5d0ff;
+}
+
 
