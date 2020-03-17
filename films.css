@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: 'Neon Absolute Sans';
-    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf);
 }
 @font-face {
     font-family: 'Riverswell';
-    src:url(fonts/Riverswell.otf) format(truetype);
+    src:url(fonts/Riverswell.otf);
 }
 @font-face {
     font-family: 'Superstar M54';
-    src:url(fonts/Superstar\ M54.ttf) format(truetype);
+    src:url(fonts/Superstar\ M54.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');

@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: 'Neon Absolute Sans';
-    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf) format(truetype);
+    src: url(fonts/NEON\ ABSOLUTE\ SANS1.ttf);
 }
 @font-face {
     font-family: 'Riverswell';
-    src:url(fonts/Riverswell.otf) format(truetype);
+    src: url(fonts/Riverswell.otf);
 }
 @font-face {
     font-family: 'Superstar M54';
-    src:url(fonts/Superstar\ M54.ttf) format(truetype);
+    src: url(fonts/Superstar\ M54.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
@@ -85,7 +85,7 @@ video {
     font-size: 6em;
     color: #fff;
     text-shadow: 0 0 20px #00e2ff;
-    font-family: 'Neon Absolute Sans 1', sans-serif;
+    font-family: 'Neon Absolute Sans', sans-serif;
     font-size: 80px;
     text-transform: uppercase;
 }
@@ -197,7 +197,7 @@ video {
     opacity: 0;
 }
 
-.films__main .col-6 {
+.films__main .play {
     padding: 0;
     position: relative;
 }
@@ -270,5 +270,28 @@ a {
 a:hover{
   color:#a5d0ff;
 }
+
+
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 758px */
+@media screen and (max-width: 768px) {
+    .neon {
+        font-size: 70px;
+    }
+    .banniere__overlay {
+        background-image: url(images/titrehome_petites_resolutions.svg);
+    }
+    .grid__films img {
+        height: 56.25vw;
+    }
+}
+
+
+
+
+
+
+
 
 
