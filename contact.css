@@ -52,7 +52,6 @@
 
 .adresses {
     background-color: #333a401c;
-    height: 200px; 
     padding-top: 20px;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
@@ -118,6 +117,7 @@ input {
     background-color: #34b2e2;
     margin-top: 20px;
     border: none;
+    white-space: normal;
 }
 
 .newsletter__social {
