@@ -38,6 +38,7 @@
 .heading h1 {
     font-family: 'Superstar M54', sans-serif;
     font-size: 100px;
+    margin-bottom: 40px;
 }
 
 .heading h3 {
@@ -52,7 +53,7 @@
 .adresses {
     background-color: #333a401c;
     height: 200px; 
-    padding: 50px;
+    padding-top: 20px;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -95,10 +96,22 @@
     text-align: center;
 }
 
-.newsletter form {
+.newsletter__form {
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
 
+}
+
+input {
+    margin: auto;
+}
+
+#exampleInputEmail1 {
+    width: 50%;
+}
+
+#emailHelp {
+    text-align: center;
 }
 
 .newsletter__btn, .reserver__btn {
@@ -108,7 +121,6 @@
 }
 
 .newsletter__social {
-    background-color: #333a401c;
     height: 200px;
     padding: 30px;
     font-size: 200px;
@@ -116,6 +128,9 @@
     ;
 }
 
+.reserver {
+    padding-top: 20px;
+}
 .reserver__btn {
     margin-bottom: 40px;
 }
