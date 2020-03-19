@@ -29,18 +29,25 @@
 }
 
 .heading {
-    background-color: #333a40;
-    position:relative;
-    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.781);
+    color: #FFF2FF;
 }
 
-.heading__banniere {
-    background: url(images/form.svg) no-repeat top;
-    position: absolute;
-    top: 150px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.heading h1 {
+    font-family: 'Superstar M54', sans-serif;
+    font-size: 100px;
+}
+
+.heading h3 {
+    font-family: 'Quicksand', sans-serif ;
+    font-weight: 900;
+}
+
+.heading h4 {
+    font-family: 'Quicksand', sans-serif ;
 }
 
 body {
