@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'Neon Absolute Sans';
+    src:url(fonts/NEON\ ABSOLUTE\ SANS1.ttf);
+}
+@font-face {
+    font-family: 'Riverswell';
+    src:url(fonts/Riverswell.otf);
+}
+@font-face {
+    font-family: 'Superstar M54';
+    src:url(fonts/Superstar\ M54.ttf);
+}
+
+
+.navbar {
+    background-color: black;
+    color: #FFF2FF;
+    transition: background-color 1s ease 0s;
+
+}
+
+.navbar.solid {
+    background-color: #333;
+    transition: background-color 1s ease 0s;
+}
+
+.main {
+}
+
+
+.heading {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    color: #FFF2FF;
+}
+
+.heading h1 {
+    font-family: 'Superstar M54', sans-serif;
+    font-size: 100px;
+}
+
+.heading h3 {
+    font-family: 'Quicksand', sans-serif ;
+    font-weight: 900;
+}
+
+.heading h4 {
+    font-family: 'Quicksand', sans-serif ;
+}
+
+.mentions {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin: 80px 180px;
+
+}
+
+.exercice {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 18px;
+    margin-bottom: 60px;
+}
+
+.presentation__generale, .objet, .cookies, .loi, .copyright {
+    margin-bottom: 40px;
+}
