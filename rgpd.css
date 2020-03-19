@@ -48,7 +48,15 @@
 }
 
 
+.mentions {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin: 80px 180px;
+}
 
+h3, h4, h5, h6 {
+    margin-bottom: 40px;
+}
 
 
 
