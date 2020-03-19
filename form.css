@@ -102,4 +102,9 @@ a:hover {
     font-family: 'Quicksand', sans-serif;
 }
 
-
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 758px */
+@media screen and (max-width: 768px) {
+    .heading h1 {
+        font-size: 60px;
+    }
+}
