@@ -12,11 +12,6 @@
     src: url(fonts/Superstar\ M54.ttf);
 }
 
-
-
-
-
-
 .navbar {
     background-color: transparent;
     color: #FFF2FF;
@@ -276,7 +271,9 @@ a:hover{
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 758px */
 @media screen and (max-width: 768px) {
     .neon {
-        font-size: 70px;
+        font-size: 45px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .banniere__overlay {
         background-image: url(images/titrehome_petites_resolutions.svg);
