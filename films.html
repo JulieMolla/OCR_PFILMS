@@ -44,72 +44,75 @@
 
 </head>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between">
 
-
-        <div class="navbar__menu">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A propos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Films
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="films.html">Films</a>
-                            <a class="dropdown-item" href="programmation.html">Programmation</a>
-                            <div class="dropdown-item"></div>
-                            <a class="dropdown-item" href="form.html">Réservation</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#actualites">Actualités</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="navbar__network">
-
-            <ul class="list-unstyled list-inline text-center">
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-fb mx-1 text-white">
-                        <i class="fab fa-facebook-f"> </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-instagram mx-1 text-white">
-                        <i class="fab fa-instagram"> </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-tw mx-1 text-white">
-                        <i class="fab fa-twitter"> </i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
 
 
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between">
+
+
+            <div class="navbar__menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Films
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="films.html">Films</a>
+                                <a class="dropdown-item" href="programmation.html">Programmation</a>
+                                <div class="dropdown-item"></div>
+                                <a class="dropdown-item" href="form.html">Réservation</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#actualites">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navbar__network">
+
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1 text-white">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-instagram mx-1 text-white">
+                            <i class="fab fa-instagram"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1 text-white">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <article class="carousel">
@@ -128,7 +131,8 @@
                     <li data-target="#carousel" data-slide-to="10"></li>
                     <li data-target="#carousel" data-slide-to="11"></li>
                 </ol>
-                <section id="carousel" class="carousel slide film__carousel" data-ride="carousel" data-interval="false">
+
+                <div class="carousel slide film__carousel" data-ride="carousel" data-interval="false">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
@@ -143,7 +147,7 @@
                         <li data-target="#carousel" data-slide-to="10"></li>
                         <li data-target="#carousel" data-slide-to="11"></li>
                     </ol>
-                </section>
+                </div>
 
 
                 <div class="carousel-inner">
@@ -160,7 +164,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
 
                                 </div>
                             </div>
@@ -180,7 +183,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +202,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -219,7 +220,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +238,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -257,7 +256,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +274,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +292,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -314,7 +310,6 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +328,7 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -352,7 +347,7 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -371,7 +366,7 @@
                                         Synopsis
                                     </button>
                                     <a class="form__btn btn btn-dark" href="form.html" target="_blank">Réserver</a>
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -386,6 +381,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Suivant</span>
                     </a>
+                </div>
             </section>
         </article>
     </main>
@@ -396,7 +392,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Departures - Mercredi
+                    <h5 class="modal-title">Departures - Mercredi
                         5 août à 20h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -423,7 +419,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Le tombeau des lucioles - Mercredi
+                    <h5 class="modal-title">Le tombeau des lucioles - Mercredi
                         5 août à 18h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -449,7 +445,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Will Hunting - Mercredi
+                    <h5 class="modal-title">Will Hunting - Mercredi
                         5 août à 22h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -477,7 +473,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Wall-E - Jeudi 6 août à 18h</h5>
+                    <h5 class="modal-title">Wall-E - Jeudi 6 août à 18h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -498,12 +494,12 @@
         </div>
     </div>
 
-    <div class="modal fade" id="merveilleuseHistoire" tabindex=" -1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="merveilleuseHistoire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Une merveilleuse histoire du temps - Jeudi 6 août à
+                    <h5 class="modal-title">Une merveilleuse histoire du temps - Jeudi 6 août à
                         20h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -524,12 +520,12 @@
         </div>
     </div>
 
-    <div class="modal fade" id="volDessusNid" tabindex=" -1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="volDessusNid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Vol au-dessus d'un nid de coucou - Jeudi 6 août à 22h
+                    <h5 class="modal-title">Vol au-dessus d'un nid de coucou - Jeudi 6 août à 22h
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -555,7 +551,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edward aux mains d'argent - Vendredi 7 août à 18h
+                    <h5 class="modal-title">Edward aux mains d'argent - Vendredi 7 août à 18h
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -581,7 +577,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Into the Wild - Vendredi 7 août à 20h</h5>
+                    <h5 class="modal-title">Into the Wild - Vendredi 7 août à 20h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -606,7 +602,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Fight Club - Vendredi 7 août à 22h</h5>
+                    <h5 class="modal-title">Fight Club - Vendredi 7 août à 22h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -630,7 +626,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Le monde de Charlie - Samedi 8 août à 18h</h5>
+                    <h5 class="modal-title">Le monde de Charlie - Samedi 8 août à 18h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -655,7 +651,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Le Grand Bleu - Samedi 8 août à 20h</h5>
+                    <h5 class="modal-title">Le Grand Bleu - Samedi 8 août à 20h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -680,7 +676,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">(500) jours ensemble - Samedi 8 août à 22h</h5>
+                    <h5 class="modal-title">(500) jours ensemble - Samedi 8 août à 22h</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

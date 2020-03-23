@@ -73,7 +73,7 @@ video {
 .neon {
     position: relative;
     display: inline-block; 
-    transform: translate (-50%, -50%);
+    transform: translate(-50%, -50%);
     margin:0;
     padding: 0 20px;
     font-size: 6em;
@@ -84,7 +84,7 @@ video {
     text-transform: uppercase;
 }
 
-.neon:after {
+.neon::after {
     content: attr(data-text);
     position: absolute; 
     top: 0;
@@ -95,7 +95,7 @@ video {
     filter: blur(15px);
 }
 
-.neon:before {
+.neon::before {
     content: '';
     position: absolute;
     top: 0;
@@ -257,7 +257,6 @@ video {
 
 a {
     display: inline-block;
-    position: center;
     color:#248ab1;    
 }
 
