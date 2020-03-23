@@ -73,7 +73,6 @@ video {
 .neon {
     position: relative;
     display: inline-block; 
-    transform: translate(-50%, -50%);
     margin:0;
     padding: 0 20px;
     font-size: 6em;
